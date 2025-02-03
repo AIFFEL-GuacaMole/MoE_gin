@@ -1,13 +1,13 @@
 # Mixed_GIN
 
-Mixed_GIN is a research-oriented framework designed for robust prediction on the TDC ADMET benchmark group using advanced graph neural network models from the Deep Graph Library (DGL). The core objective of Mixed_GIN is to fuse multiple variants of Graph Isomorphism Network (GIN) embeddings—specifically, `gin_supervised_masking`, `gin_supervised_infomax`, `gin_supervised_edgepred`, and `gin_supervised_contextpred`—into a single, robust predictive model. This fusion in the embedding space leverages the strengths of each GIN variant to improve prediction accuracy and generalization for complex molecular property prediction tasks.
+MoE_gin is a research-oriented framework designed for robust prediction on the TDC ADMET benchmark group using advanced graph neural network models from the Deep Graph Library (DGL). The core objective of Mixed_GIN is to fuse multiple variants of Graph Isomorphism Network (GIN) embeddings—specifically, `gin_supervised_masking`, `gin_supervised_infomax`, `gin_supervised_edgepred`, and `gin_supervised_contextpred`—into a single, robust predictive model. This fusion in the embedding space leverages the strengths of each GIN variant to improve prediction accuracy and generalization for complex molecular property prediction tasks.
 
 ---
 
 ## Directory Structure
 
 ```
-Mixed_GIN/  
+MoE_gin/  
 ├── .gitignore  
 ├── README.md  
 ├── main.py  
@@ -64,8 +64,8 @@ The primary goal of Mixed_GIN is to:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Mixed_GIN.git
-cd Mixed_GIN
+git clone https://github.com/AIFFEL-GuacaMole/MoE_gin.git
+cd MoE_gin
 ```
 
 **Note**: Ensure that `requirements.txt` includes necessary packages such as `torch`, `dgl`, `tqdm`, `datamol`, and `tdc`.
