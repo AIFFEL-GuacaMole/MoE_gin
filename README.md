@@ -1,4 +1,4 @@
-# Mixed_GIN
+# MoE_gin
 
 MoE_gin is a research-oriented framework designed for robust prediction on the TDC ADMET benchmark group using advanced graph neural network models from the Deep Graph Library (DGL). The core objective of Mixed_GIN is to fuse multiple variants of Graph Isomorphism Network (GIN) embeddings—specifically, `gin_supervised_masking`, `gin_supervised_infomax`, `gin_supervised_edgepred`, and `gin_supervised_contextpred`—into a single, robust predictive model. This fusion in the embedding space leverages the strengths of each GIN variant to improve prediction accuracy and generalization for complex molecular property prediction tasks.
 
@@ -41,7 +41,7 @@ MoE_gin/
 
 ## Objectives
 
-The primary goal of Mixed_GIN is to:
+The primary goal of MoE_gin is to:
 
 1. Utilize and integrate several supervised GIN models (`gin_supervised_masking`, `gin_supervised_infomax`, `gin_supervised_edgepred`, `gin_supervised_contextpred`) into a unified architecture.
 2. Perform fusion at the embedding level to create a more robust representation of molecular graphs.
@@ -109,4 +109,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 
-Mixed_GIN aims to advance the state-of-the-art in molecular property prediction by robustly integrating multiple GIN-based embeddings. For further detail
+MoE_gin aims to advance the state-of-the-art in molecular property prediction by robustly integrating multiple GIN-based embeddings. For further detail
