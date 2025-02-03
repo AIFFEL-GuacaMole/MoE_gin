@@ -11,7 +11,7 @@ MoE_gin/
 ├── .gitignore  
 ├── README.md  
 ├── main.py  
-├── trainer.py  
+├── all_gin_exp.py  
 ├── wandb_logger.py  
 ├── data/  
 │   ├── data_loader.py  
@@ -35,7 +35,6 @@ MoE_gin/
 - **`models/`**: Contains model definitions. The key file `gin_model.py`implements a GIN-based model variant
  and Gin_MoE_model.py apply MoE method.
 - **`utils/`**: Contains utility modules, including custom loss functions (`loss_fn.py`) and various helper utilities (`util.py`) for scheduling, early stopping, and other training utilities.
-- **`.log/`**: The logging data about each cyp prediction test result
 
 ---
 
